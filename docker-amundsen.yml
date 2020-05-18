@@ -1,4 +1,4 @@
-version: '3'
+version: '3.5'
 services:
   neo4j:
       image: neo4j:3.3.0
@@ -79,3 +79,4 @@ services:
 
 networks:
   amundsennet:
+    name: amundsennet
